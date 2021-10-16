@@ -1,0 +1,33 @@
+.type2{
+	color: green;
+}
+
+h1,h2{
+	font-family: Georgia;
+	text-align: center;
+}
+p{
+	height: 25px;
+	
+}
+#UPPER{
+	text-transform: uppercase;
+}
+a,link{
+	text-decoration: none;
+}
+link,a:hover{
+	text-decoration: underline;
+}
+img{
+	float: left;
+	height: 110px;
+	width: 110px;
+	padding-right:10px ;
+	
+	
+}
+p, img{
+	word-spacing: 0px;
+}
+
