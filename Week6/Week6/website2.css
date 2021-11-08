@@ -1,0 +1,14 @@
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, min-max 300px, 1fr);
+	grid-gap:10px;
+}
+@media only screen and(max-width:300px){
+}
+
+@media (max-width: 12450px){
+		
+}
+@media (min-height: 680px){
+		
+}
