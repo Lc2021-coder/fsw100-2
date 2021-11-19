@@ -1,0 +1,51 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	background-color: pink;
+	padding: 12px;
+	display: grid;
+	grid-template-columns: repeat(1fr,1fr, 1fr, 1fr);
+	grid-template-rows:20vh, 20vh , 20vh, 20vh, 20vh;
+	
+	
+}
+.header{
+	background-color: pink;
+	padding: 12px;
+	grid-template-columns: 1/-1;
+	display:flex
+
+	
+
+}
+img{
+	background-size: cover;
+}
+
+	
+.logout{
+	margin-left: auto;
+	background-color: ;
+}
+.section{
+	background-color: plum;
+	padding: 12px;
+	grid-column: 1/-1;
+	height: 0;
+
+	
+}
+
+.main{
+	background-color: pink;
+	padding: 12px;
+	grid-column: 1/-1;
+}
+.footer{
+	background-color:pink;
+	padding: 12px;
+	grid-template-columns: 1/-1;
+
+}
