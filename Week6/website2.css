@@ -1,0 +1,25 @@
+/*.wrapper{
+
+	display: grid;
+	grid-template-columns: repeat(1,380px);
+	grid: gap 15px;
+	justify-content: center;
+}*/
+
+.wrapper{
+	display: -moz-grid-line;
+	flex-direction: row;
+}
+
+	
+
+
+
+
+@media (min-width: 600px) and (max-width:768px){
+	
+}
+@media (min-width: 768px){
+	
+		
+}

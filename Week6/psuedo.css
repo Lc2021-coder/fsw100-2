@@ -3,15 +3,37 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.box{
+	border:  1px solid black;
+height: 100px;
+width:100px;
+}
 
-.h1{
 
-border:  2px solid black;
-height: 200px;
-width:200px;
-background-color: blue,;
+
+.box1:hover{
+background-color: rgb(43, 226, 52);
+border:  3px solid red;
+
 
 }
-.h1:hover{
-background-color: rgb(43, 226, 52);
+.box2:hover{
+	background-color: aqua;
+	border: solid black;
+}
+.box3:hover{
+	background-color: blue;
+	border: blueviolet;
+}
+.box4:hover{
+	background-color: blueviolet;
+	border: solid salmon;
+}
+.box5:hover{
+	background-color: brown;
+	border: solid pink;
+}
+.box6:hover{
+	background-color: purple;
+	border: solid green;
 }
